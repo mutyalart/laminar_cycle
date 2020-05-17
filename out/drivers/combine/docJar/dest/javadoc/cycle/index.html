@@ -1,0 +1,781 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <title></title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      
+      <link href="../lib/index.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../lib/jquery.min.js"></script>
+      <script type="text/javascript" src="../lib/jquery.panzoom.min.js"></script>
+      <script type="text/javascript" src="../lib/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="../lib/index.js"></script>
+      <script type="text/javascript" src="../index.js"></script>
+      <script type="text/javascript" src="../lib/scheduler.js"></script>
+      <script type="text/javascript" src="../lib/template.js"></script>
+      
+      <script type="text/javascript">
+        /* this variable can be used by the JS to determine the path to the root document */
+        var toRoot = '../';
+      </script>
+    
+        </head>
+        <body>
+      <div id="search">
+        <span id="doc-title"><span id="doc-version"></span></span>
+        <span class="close-results"><span class="left">&lt;</span> Back</span>
+        <div id="textfilter">
+          <span class="input">
+            <input autocapitalize="none" placeholder="Search" id="index-input" type="text" accesskey="/" />
+            <i class="clear material-icons"></i>
+            <i id="search-icon" class="material-icons"></i>
+          </span>
+        </div>
+    </div>
+      <div id="search-results">
+        <div id="search-progress">
+          <div id="progress-fill"></div>
+        </div>
+        <div id="results-content">
+          <div id="entity-results"></div>
+          <div id="member-results"></div>
+        </div>
+      </div>
+      <div id="content-scroll-container" style="-webkit-overflow-scrolling: touch;">
+        <div id="content-container" style="-webkit-overflow-scrolling: touch;">
+          <div id="subpackage-spacer">
+            <div id="packages">
+              <h1>Packages</h1>
+              <ul>
+                <li name="_root_.root" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="_root_"></a><a id="root:_root_"></a>
+      <span class="permalink">
+      <a href="../index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../index.html"><span class="name">root</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="_root_.cycle" visbl="pub" class="indented1 current" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="cycle"></a><a id="cycle:cycle"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cycle</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li class="current-entities indented1">
+                        <span class="separator"></span>
+                        <a class="object" href="ComposeDriver$.html" title=""></a>
+                        <a href="ComposeDriver$.html" title="">ComposeDriver</a>
+                      </li>
+              </ul>
+            </div>
+          </div>
+          <div id="content">
+            <body class="package value">
+      <div id="definition">
+        <div class="big-circle package">p</div>
+        
+        <h1>cycle<span class="permalink">
+      <a href="../cycle/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span></h1>
+        
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cycle</span>
+      </span>
+      </h4>
+
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">
+            Linear Supertypes
+          </span>
+          <div class="superTypes hiddenContent"><span class="extype" name="cycle.internal.Helper">Helper</span>, <span class="extype" name="cycle.internal.Bijection">Bijection</span>, <span class="extype" name="cycle.internal.Devices">Devices</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div class="toggle"></div>
+        <div id="memberfilter">
+          <i class="material-icons arrow"></i>
+          <span class="input">
+            <input id="mbrsel-input" placeholder="Filter all members" type="text" accesskey="/" />
+          </span>
+          <i class="clear material-icons"></i>
+        </div>
+        <div id="filterby">
+          <div id="order">
+            <span class="filtertype">Ordering</span>
+            <ol>
+              
+              <li class="alpha in"><span>Alphabetic</span></li>
+              <li class="inherit out"><span>By Inheritance</span></li>
+            </ol>
+          </div>
+          <div class="ancestors">
+                  <span class="filtertype">Inherited<br />
+                  </span>
+                  <ol id="linearization">
+                    <li class="in" name="cycle"><span>cycle</span></li><li class="in" name="cycle.internal.Helper"><span>Helper</span></li><li class="in" name="cycle.internal.Bijection"><span>Bijection</span></li><li class="in" name="cycle.internal.Devices"><span>Devices</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  </ol>
+                </div><div class="ancestors">
+              <span class="filtertype"></span>
+              <ol>
+                <li class="hideall out"><span>Hide All</span></li>
+                <li class="showall in"><span>Show All</span></li>
+              </ol>
+            </div>
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="cycle.internal.Bijection.BijectCIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BijectCIO[I1,O1,I2,O2]=zio.Has[cycle.internal.Devices.In[I1]=&gt;cycle.internal.Devices.In[I2]]withzio.Has[cycle.internal.Devices.Out[O2]=&gt;cycle.internal.Devices.Out[O1]]"></a><a id="BijectCIO[I1,O1,I2,O2]:BijectCIO[I1,O1,I2,O2]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#BijectCIO[I1,O1,I2,O2]=zio.Has[cycle.internal.Devices.In[I1]=&gt;cycle.internal.Devices.In[I2]]withzio.Has[cycle.internal.Devices.Out[O2]=&gt;cycle.internal.Devices.Out[O1]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BijectCIO</span><span class="tparams">[<span name="I1">I1</span>, <span name="O1">O1</span>, <span name="I2">I2</span>, <span name="O2">O2</span>]</span><span class="result alias"> = <span class="extype" name="zio.Has">Has</span>[(<span class="extype" name="cycle.internal.Devices.In">cycle.internal.Devices.In</span>[<span class="extype" name="cycle.internal.Bijection.BijectCIO.I1">I1</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.In">cycle.internal.Devices.In</span>[<span class="extype" name="cycle.internal.Bijection.BijectCIO.I2">I2</span>]] with <span class="extype" name="zio.Has">Has</span>[(<span class="extype" name="cycle.internal.Devices.Out">cycle.internal.Devices.Out</span>[<span class="extype" name="cycle.internal.Bijection.BijectCIO.O2">O2</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.Out">cycle.internal.Devices.Out</span>[<span class="extype" name="cycle.internal.Bijection.BijectCIO.O1">O1</span>]]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bijection</dd></dl></div>
+    </li><li name="cycle.internal.Devices.CIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CIO[I,O]=Devices.this.InOut[I,O]"></a><a id="CIO[I,O]:CIO[I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#CIO[I,O]=Devices.this.InOut[I,O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">CIO</span><span class="tparams">[<span name="I">I</span>, <span name="O">O</span>]</span><span class="result alias"> = <a href="#In[T&lt;:&lt;?&gt;]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" class="extmbr" name="cycle.In">In</a>[<span class="extype" name="cycle.internal.Devices.CIO.I">I</span>] with <a href="#Out[T&lt;:&lt;?&gt;]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.CIO.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.Cycle" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Cycle[R,V]=Devices.this.User[R,V]=&gt;V"></a><a id="Cycle[R,V]:Cycle[R,V]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#Cycle[R,V]=Devices.this.User[R,V]=&gt;V" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Cycle</span><span class="tparams">[<span name="R">R</span>, <span name="V">V</span>]</span><span class="result alias"> = (<a href="#User[R&lt;:&lt;?&gt;,V&lt;:&lt;?&gt;]=R=&gt;V" class="extmbr" name="cycle.User">User</a>[<span class="extype" name="cycle.internal.Devices.Cycle.R">R</span>, <span class="extype" name="cycle.internal.Devices.Cycle.V">V</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.Cycle.V">V</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.EIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EIO[T]=Devices.this.EqlInOut[T]"></a><a id="EIO[T]:EIO[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#EIO[T]=Devices.this.EqlInOut[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EIO</span><span class="tparams">[<span name="T">T</span>]</span><span class="result alias"> = <a href="#In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" class="extmbr" name="cycle.In">In</a>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>] with <a href="#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.EMO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EMO[T]=Devices.this.MemInOut[T,T,T]"></a><a id="EMO[T]:EMO[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#EMO[T]=Devices.this.MemInOut[T,T,T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EMO</span><span class="tparams">[<span name="T">T</span>]</span><span class="result alias"> = <a href="#Mem[T&lt;:&lt;?&gt;]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" class="extmbr" name="cycle.Mem">Mem</a>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>] with <a href="#InOut[I&lt;:&lt;?&gt;,O&lt;:&lt;?&gt;]=Devices.this.In[I]withDevices.this.Out[O]" class="extmbr" name="cycle.InOut">InOut</a>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>, <span class="extype" name="cycle.internal.Devices.EMO.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.EqlInOut" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EqlInOut[T]=Devices.this.InOut[T,T]"></a><a id="EqlInOut[T]:EqlInOut[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#EqlInOut[T]=Devices.this.InOut[T,T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EqlInOut</span><span class="tparams">[<span name="T">T</span>]</span><span class="result alias"> = <a href="#In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" class="extmbr" name="cycle.In">In</a>[<span class="extype" name="cycle.internal.Devices.EqlInOut.T">T</span>] with <a href="#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.EqlInOut.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.In" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]"></a><a id="In[T]:In[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">In</span><span class="tparams">[<span name="T">T</span>]</span><span class="result alias"> = <span class="extype" name="zio.Has">Has</span>[<span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Devices.In.T">T</span>]]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.InOut" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="InOut[I,O]=Devices.this.In[I]withDevices.this.Out[O]"></a><a id="InOut[I,O]:InOut[I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#InOut[I,O]=Devices.this.In[I]withDevices.this.Out[O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">InOut</span><span class="tparams">[<span name="I">I</span>, <span name="O">O</span>]</span><span class="result alias"> = <a href="#In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" class="extmbr" name="cycle.In">In</a>[<span class="extype" name="cycle.internal.Devices.InOut.I">I</span>] with <a href="#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.InOut.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.MIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MIO[M,I,O]=Devices.this.MemInOut[M,I,O]"></a><a id="MIO[M,I,O]:MIO[M,I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#MIO[M,I,O]=Devices.this.MemInOut[M,I,O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MIO</span><span class="tparams">[<span name="M">M</span>, <span name="I">I</span>, <span name="O">O</span>]</span><span class="result alias"> = <a href="#Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" class="extmbr" name="cycle.Mem">Mem</a>[<span class="extype" name="cycle.internal.Devices.MIO.M">M</span>] with <a href="#InOut[I,O]=Devices.this.In[I]withDevices.this.Out[O]" class="extmbr" name="cycle.InOut">InOut</a>[<span class="extype" name="cycle.internal.Devices.MIO.I">I</span>, <span class="extype" name="cycle.internal.Devices.MIO.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.Mem" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]"></a><a id="Mem[T]:Mem[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Mem</span><span class="tparams">[<span name="T">T</span>]</span><span class="result alias"> = <span class="extype" name="zio.Has">Has</span>[<span class="extype" name="com.raquo.laminar.api.Airstream.Signal">com.raquo.laminar.api.Laminar.Signal</span>[<span class="extype" name="cycle.internal.Devices.Mem.T">T</span>]]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.MemInOut" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MemInOut[M,I,O]=Devices.this.Mem[M]withDevices.this.InOut[I,O]"></a><a id="MemInOut[M,I,O]:MemInOut[M,I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#MemInOut[M,I,O]=Devices.this.Mem[M]withDevices.this.InOut[I,O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MemInOut</span><span class="tparams">[<span name="M">M</span>, <span name="I">I</span>, <span name="O">O</span>]</span><span class="result alias"> = <a href="#Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" class="extmbr" name="cycle.Mem">Mem</a>[<span class="extype" name="cycle.internal.Devices.MemInOut.M">M</span>] with <a href="#InOut[I,O]=Devices.this.In[I]withDevices.this.Out[O]" class="extmbr" name="cycle.InOut">InOut</a>[<span class="extype" name="cycle.internal.Devices.MemInOut.I">I</span>, <span class="extype" name="cycle.internal.Devices.MemInOut.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.MemOut" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MemOut[M,O]=Devices.this.Mem[M]withDevices.this.Out[O]"></a><a id="MemOut[M,O]:MemOut[M,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#MemOut[M,O]=Devices.this.Mem[M]withDevices.this.Out[O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MemOut</span><span class="tparams">[<span name="M">M</span>, <span name="O">O</span>]</span><span class="result alias"> = <a href="#Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" class="extmbr" name="cycle.Mem">Mem</a>[<span class="extype" name="cycle.internal.Devices.MemOut.M">M</span>] with <a href="#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.MemOut.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Helper.ModEl" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ModEl=com.raquo.laminar.api.L.Mod[com.raquo.laminar.api.L.Element]"></a><a id="ModEl:ModEl"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#ModEl=com.raquo.laminar.api.L.Mod[com.raquo.laminar.api.L.Element]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ModEl</span><span class="result alias"> = <span class="extype" name="com.raquo.domtypes.generic.Modifier">Modifier</span>[<span class="extype" name="com.raquo.laminar.api.Laminar.Element">Element</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Helper</dd></dl></div>
+    </li><li name="cycle.internal.Devices.Out" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]"></a><a id="Out[T]:Out[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Out</span><span class="tparams">[<span name="T">T</span>]</span><span class="result alias"> = <span class="extype" name="zio.Has">Has</span>[<span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Devices.Out.T">T</span>]]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.PIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PIO[I,O]=Devices.this.InOut[I,O]withDevices.this.InOut[O,I]"></a><a id="PIO[I,O]:PIO[I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#PIO[I,O]=Devices.this.InOut[I,O]withDevices.this.InOut[O,I]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">PIO</span><span class="tparams">[<span name="I">I</span>, <span name="O">O</span>]</span><span class="result alias"> = <a href="#InOut[I,O]=Devices.this.In[I]withDevices.this.Out[O]" class="extmbr" name="cycle.InOut">InOut</a>[<span class="extype" name="cycle.internal.Devices.PIO.I">I</span>, <span class="extype" name="cycle.internal.Devices.PIO.O">O</span>] with <a href="#InOut[I,O]=Devices.this.In[I]withDevices.this.Out[O]" class="extmbr" name="cycle.InOut">InOut</a>[<span class="extype" name="cycle.internal.Devices.PIO.O">O</span>, <span class="extype" name="cycle.internal.Devices.PIO.I">I</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices.User" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="User[R,V]=R=&gt;V"></a><a id="User[R,V]:User[R,V]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#User[R,V]=R=&gt;V" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">User</span><span class="tparams">[<span name="R">R</span>, <span name="V">V</span>]</span><span class="result alias"> = (<span class="extype" name="cycle.internal.Devices.User.R">R</span>) ⇒ <span class="extype" name="cycle.internal.Devices.User.V">V</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div class="values members">
+              <h3>Value Members</h3>
+              <ol>
+                <li name="cycle.internal.Devices#EIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EIO[T](implicitevidence$8:izumi.reflect.Tag[T]):Devices.this.EIO[T]"></a><a id="EIO[T](Tag[T]):EIO[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#EIO[T](implicitevidence$8:izumi.reflect.Tag[T]):Devices.this.EIO[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EIO</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>]</span>)</span><span class="result">: <a href="#EIO[T]=Devices.this.EqlInOut[T]" class="extmbr" name="cycle.EIO">EIO</a>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#EIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EIO[T](b:com.raquo.laminar.api.L.EventBus[T])(implicitevidence$7:izumi.reflect.Tag[T]):Devices.this.EIO[T]"></a><a id="EIO[T](com.raquo.laminar.api.Laminar.EventBus[T])(Tag[T]):EIO[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#EIO[T](b:com.raquo.laminar.api.L.EventBus[T])(implicitevidence$7:izumi.reflect.Tag[T]):Devices.this.EIO[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EIO</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="b">b: <span class="extype" name="com.raquo.laminar.api.Airstream.EventBus">com.raquo.laminar.api.Laminar.EventBus</span>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>]</span>)</span><span class="result">: <a href="#EIO[T]=Devices.this.EqlInOut[T]" class="extmbr" name="cycle.EIO">EIO</a>[<span class="extype" name="cycle.internal.Devices.EIO.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#EMO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EMO[T](m:com.raquo.laminar.api.L.Signal[T],i:com.raquo.laminar.api.L.EventStream[T],o:com.raquo.laminar.api.L.WriteBus[T])(implicitevidence$9:izumi.reflect.Tag[T]):Devices.this.EMO[T]"></a><a id="EMO[T](com.raquo.laminar.api.Laminar.Signal[T],com.raquo.laminar.api.Laminar.EventStream[T],com.raquo.laminar.api.Laminar.WriteBus[T])(Tag[T]):EMO[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#EMO[T](m:com.raquo.laminar.api.L.Signal[T],i:com.raquo.laminar.api.L.EventStream[T],o:com.raquo.laminar.api.L.WriteBus[T])(implicitevidence$9:izumi.reflect.Tag[T]):Devices.this.EMO[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EMO</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="m">m: <span class="extype" name="com.raquo.laminar.api.Airstream.Signal">com.raquo.laminar.api.Laminar.Signal</span>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>]</span>, <span name="i">i: <span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>]</span>, <span name="o">o: <span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>]</span>)</span><span class="result">: <a href="#EMO[T]=Devices.this.MemInOut[T,T,T]" class="extmbr" name="cycle.EMO">EMO</a>[<span class="extype" name="cycle.internal.Devices.EMO.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#MIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MIO[M,I,O](m:com.raquo.laminar.api.L.Signal[M],i:com.raquo.laminar.api.L.EventStream[I],o:com.raquo.laminar.api.L.WriteBus[O])(implicitevidence$10:izumi.reflect.Tag[M],implicitevidence$11:izumi.reflect.Tag[I],implicitevidence$12:izumi.reflect.Tag[O]):Devices.this.MIO[M,I,O]"></a><a id="MIO[M,I,O](com.raquo.laminar.api.Laminar.Signal[M],com.raquo.laminar.api.Laminar.EventStream[I],com.raquo.laminar.api.Laminar.WriteBus[O])(Tag[M],Tag[I],Tag[O]):MIO[M,I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#MIO[M,I,O](m:com.raquo.laminar.api.L.Signal[M],i:com.raquo.laminar.api.L.EventStream[I],o:com.raquo.laminar.api.L.WriteBus[O])(implicitevidence$10:izumi.reflect.Tag[M],implicitevidence$11:izumi.reflect.Tag[I],implicitevidence$12:izumi.reflect.Tag[O]):Devices.this.MIO[M,I,O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MIO</span><span class="tparams">[<span name="M">M</span>, <span name="I">I</span>, <span name="O">O</span>]</span><span class="params">(<span name="m">m: <span class="extype" name="com.raquo.laminar.api.Airstream.Signal">com.raquo.laminar.api.Laminar.Signal</span>[<span class="extype" name="cycle.internal.Devices.MIO.M">M</span>]</span>, <span name="i">i: <span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Devices.MIO.I">I</span>]</span>, <span name="o">o: <span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Devices.MIO.O">O</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.MIO.M">M</span>]</span>, <span name="arg1">arg1: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.MIO.I">I</span>]</span>, <span name="arg2">arg2: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.MIO.O">O</span>]</span>)</span><span class="result">: <a href="#MIO[M,I,O]=Devices.this.MemInOut[M,I,O]" class="extmbr" name="cycle.MIO">MIO</a>[<span class="extype" name="cycle.internal.Devices.MIO.M">M</span>, <span class="extype" name="cycle.internal.Devices.MIO.I">I</span>, <span class="extype" name="cycle.internal.Devices.MIO.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#PIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PIO[I,O](implicitevidence$15:izumi.reflect.Tag[I],implicitevidence$16:izumi.reflect.Tag[O]):Devices.this.PIO[I,O]"></a><a id="PIO[I,O](Tag[I],Tag[O]):PIO[I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#PIO[I,O](implicitevidence$15:izumi.reflect.Tag[I],implicitevidence$16:izumi.reflect.Tag[O]):Devices.this.PIO[I,O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">PIO</span><span class="tparams">[<span name="I">I</span>, <span name="O">O</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.PIO.I">I</span>]</span>, <span name="arg1">arg1: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.PIO.O">O</span>]</span>)</span><span class="result">: <a href="#PIO[I,O]=Devices.this.InOut[I,O]withDevices.this.InOut[O,I]" class="extmbr" name="cycle.PIO">PIO</a>[<span class="extype" name="cycle.internal.Devices.PIO.I">I</span>, <span class="extype" name="cycle.internal.Devices.PIO.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#PIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PIO[I,O](ib:com.raquo.laminar.api.L.EventBus[I],ob:com.raquo.laminar.api.L.EventBus[O])(implicitevidence$13:izumi.reflect.Tag[I],implicitevidence$14:izumi.reflect.Tag[O]):Devices.this.PIO[I,O]"></a><a id="PIO[I,O](com.raquo.laminar.api.Laminar.EventBus[I],com.raquo.laminar.api.Laminar.EventBus[O])(Tag[I],Tag[O]):PIO[I,O]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#PIO[I,O](ib:com.raquo.laminar.api.L.EventBus[I],ob:com.raquo.laminar.api.L.EventBus[O])(implicitevidence$13:izumi.reflect.Tag[I],implicitevidence$14:izumi.reflect.Tag[O]):Devices.this.PIO[I,O]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">PIO</span><span class="tparams">[<span name="I">I</span>, <span name="O">O</span>]</span><span class="params">(<span name="ib">ib: <span class="extype" name="com.raquo.laminar.api.Airstream.EventBus">com.raquo.laminar.api.Laminar.EventBus</span>[<span class="extype" name="cycle.internal.Devices.PIO.I">I</span>]</span>, <span name="ob">ob: <span class="extype" name="com.raquo.laminar.api.Airstream.EventBus">com.raquo.laminar.api.Laminar.EventBus</span>[<span class="extype" name="cycle.internal.Devices.PIO.O">O</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.PIO.I">I</span>]</span>, <span name="arg1">arg1: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.PIO.O">O</span>]</span>)</span><span class="result">: <a href="#PIO[I,O]=Devices.this.InOut[I,O]withDevices.this.InOut[O,I]" class="extmbr" name="cycle.PIO">PIO</a>[<span class="extype" name="cycle.internal.Devices.PIO.I">I</span>, <span class="extype" name="cycle.internal.Devices.PIO.O">O</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Helper#amend" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="amend(mods:Helper.this.ModEl*):Helper.this.ModEl"></a><a id="amend(ModEl*):ModEl"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#amend(mods:Helper.this.ModEl*):Helper.this.ModEl" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">amend</span><span class="params">(<span name="mods">mods: <a href="#ModEl=com.raquo.laminar.api.L.Mod[com.raquo.laminar.api.L.Element]" class="extmbr" name="cycle.ModEl">ModEl</a>*</span>)</span><span class="result">: <a href="#ModEl=com.raquo.laminar.api.L.Mod[com.raquo.laminar.api.L.Element]" class="extmbr" name="cycle.ModEl">ModEl</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Helper</dd></dl></div>
+    </li><li name="cycle.internal.Bijection#bijectCIO" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="bijectCIO[I1,O1,I2,O2](implicitevidence$21:izumi.reflect.Tag[I1],implicitevidence$22:izumi.reflect.Tag[O1],implicitevidence$23:izumi.reflect.Tag[I2],implicitevidence$24:izumi.reflect.Tag[O2],implicitmapI:cycle.internal.Devices.In[I1]=&gt;cycle.internal.Devices.In[I2],implicitcontramapO:cycle.internal.Devices.Out[O2]=&gt;cycle.internal.Devices.Out[O1]):Bijection.this.BijectCIO[I1,O1,I2,O2]"></a><a id="bijectCIO[I1,O1,I2,O2](Tag[I1],Tag[O1],Tag[I2],Tag[O2],(cycle.internal.Devices.In[I1])⇒cycle.internal.Devices.In[I2],(cycle.internal.Devices.Out[O2])⇒cycle.internal.Devices.Out[O1]):BijectCIO[I1,O1,I2,O2]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#bijectCIO[I1,O1,I2,O2](implicitevidence$21:izumi.reflect.Tag[I1],implicitevidence$22:izumi.reflect.Tag[O1],implicitevidence$23:izumi.reflect.Tag[I2],implicitevidence$24:izumi.reflect.Tag[O2],implicitmapI:cycle.internal.Devices.In[I1]=&gt;cycle.internal.Devices.In[I2],implicitcontramapO:cycle.internal.Devices.Out[O2]=&gt;cycle.internal.Devices.Out[O1]):Bijection.this.BijectCIO[I1,O1,I2,O2]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bijectCIO</span><span class="tparams">[<span name="I1">I1</span>, <span name="O1">O1</span>, <span name="I2">I2</span>, <span name="O2">O2</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.I1">I1</span>]</span>, <span name="arg1">arg1: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.O1">O1</span>]</span>, <span name="arg2">arg2: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.I2">I2</span>]</span>, <span name="arg3">arg3: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.O2">O2</span>]</span>, <span name="mapI">mapI: (<span class="extype" name="cycle.internal.Devices.In">cycle.internal.Devices.In</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.I1">I1</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.In">cycle.internal.Devices.In</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.I2">I2</span>]</span>, <span name="contramapO">contramapO: (<span class="extype" name="cycle.internal.Devices.Out">cycle.internal.Devices.Out</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.O2">O2</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.Out">cycle.internal.Devices.Out</span>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.O1">O1</span>]</span>)</span><span class="result">: <a href="#BijectCIO[I1,O1,I2,O2]=zio.Has[cycle.internal.Devices.In[I1]=&gt;cycle.internal.Devices.In[I2]]withzio.Has[cycle.internal.Devices.Out[O2]=&gt;cycle.internal.Devices.Out[O1]]" class="extmbr" name="cycle.BijectCIO">BijectCIO</a>[<span class="extype" name="cycle.internal.Bijection.bijectCIO.I1">I1</span>, <span class="extype" name="cycle.internal.Bijection.bijectCIO.O1">O1</span>, <span class="extype" name="cycle.internal.Bijection.bijectCIO.I2">I2</span>, <span class="extype" name="cycle.internal.Bijection.bijectCIO.O2">O2</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bijection</dd></dl></div>
+    </li><li name="cycle.internal.Bijection#contramapOut" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="contramapOut[A,B](implicitevidence$19:izumi.reflect.Tag[A],implicitevidence$20:izumi.reflect.Tag[B],implicitba:com.raquo.laminar.api.L.WriteBus[B]=&gt;com.raquo.laminar.api.L.WriteBus[A]):cycle.internal.Devices.Out[B]=&gt;cycle.internal.Devices.Out[A]"></a><a id="contramapOut[A,B](Tag[A],Tag[B],(com.raquo.laminar.api.Laminar.WriteBus[B])⇒com.raquo.laminar.api.Laminar.WriteBus[A]):(cycle.internal.Devices.Out[B])⇒cycle.internal.Devices.Out[A]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#contramapOut[A,B](implicitevidence$19:izumi.reflect.Tag[A],implicitevidence$20:izumi.reflect.Tag[B],implicitba:com.raquo.laminar.api.L.WriteBus[B]=&gt;com.raquo.laminar.api.L.WriteBus[A]):cycle.internal.Devices.Out[B]=&gt;cycle.internal.Devices.Out[A]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">contramapOut</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.contramapOut.A">A</span>]</span>, <span name="arg1">arg1: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.contramapOut.B">B</span>]</span>, <span name="ba">ba: (<span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Bijection.contramapOut.B">B</span>]) ⇒ <span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Bijection.contramapOut.A">A</span>]</span>)</span><span class="result">: (<span class="extype" name="cycle.internal.Devices.Out">cycle.internal.Devices.Out</span>[<span class="extype" name="cycle.internal.Bijection.contramapOut.B">B</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.Out">cycle.internal.Devices.Out</span>[<span class="extype" name="cycle.internal.Bijection.contramapOut.A">A</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bijection</dd></dl></div>
+    </li><li name="cycle.internal.Bijection#contramapWriteBus" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="contramapWriteBus[A,B](implicitba:B=&gt;A,implicitowner:com.raquo.laminar.api.L.Owner):com.raquo.laminar.api.L.WriteBus[A]=&gt;com.raquo.laminar.api.L.WriteBus[B]"></a><a id="contramapWriteBus[A,B]((B)⇒A,com.raquo.laminar.api.Laminar.Owner):(com.raquo.laminar.api.Laminar.WriteBus[A])⇒com.raquo.laminar.api.Laminar.WriteBus[B]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#contramapWriteBus[A,B](implicitba:B=&gt;A,implicitowner:com.raquo.laminar.api.L.Owner):com.raquo.laminar.api.L.WriteBus[A]=&gt;com.raquo.laminar.api.L.WriteBus[B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">contramapWriteBus</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="ba">ba: (<span class="extype" name="cycle.internal.Bijection.contramapWriteBus.B">B</span>) ⇒ <span class="extype" name="cycle.internal.Bijection.contramapWriteBus.A">A</span></span>, <span name="owner">owner: <span class="extype" name="com.raquo.laminar.api.Airstream.Owner">com.raquo.laminar.api.Laminar.Owner</span></span>)</span><span class="result">: (<span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Bijection.contramapWriteBus.A">A</span>]) ⇒ <span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Bijection.contramapWriteBus.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bijection</dd></dl></div>
+    </li><li name="cycle.internal.Devices#hasIn" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hasIn[T](o:com.raquo.laminar.api.L.EventStream[T])(implicitevidence$1:izumi.reflect.Tag[T]):Devices.this.In[T]"></a><a id="hasIn[T](com.raquo.laminar.api.Laminar.EventStream[T])(Tag[T]):In[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#hasIn[T](o:com.raquo.laminar.api.L.EventStream[T])(implicitevidence$1:izumi.reflect.Tag[T]):Devices.this.In[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hasIn</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="o">o: <span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Devices.hasIn.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.hasIn.T">T</span>]</span>)</span><span class="result">: <a href="#In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" class="extmbr" name="cycle.In">In</a>[<span class="extype" name="cycle.internal.Devices.hasIn.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#hasMem" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hasMem[T](s:com.raquo.laminar.api.L.Signal[T])(implicitevidence$5:izumi.reflect.Tag[T]):Devices.this.Mem[T]"></a><a id="hasMem[T](com.raquo.laminar.api.Laminar.Signal[T])(Tag[T]):Mem[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#hasMem[T](s:com.raquo.laminar.api.L.Signal[T])(implicitevidence$5:izumi.reflect.Tag[T]):Devices.this.Mem[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hasMem</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="s">s: <span class="extype" name="com.raquo.laminar.api.Airstream.Signal">com.raquo.laminar.api.Laminar.Signal</span>[<span class="extype" name="cycle.internal.Devices.hasMem.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.hasMem.T">T</span>]</span>)</span><span class="result">: <a href="#Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" class="extmbr" name="cycle.Mem">Mem</a>[<span class="extype" name="cycle.internal.Devices.hasMem.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#hasOut" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hasOut[T](o:com.raquo.laminar.api.L.WriteBus[T])(implicitevidence$3:izumi.reflect.Tag[T]):Devices.this.Out[T]"></a><a id="hasOut[T](com.raquo.laminar.api.Laminar.WriteBus[T])(Tag[T]):Out[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#hasOut[T](o:com.raquo.laminar.api.L.WriteBus[T])(implicitevidence$3:izumi.reflect.Tag[T]):Devices.this.Out[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hasOut</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="o">o: <span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Devices.hasOut.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.hasOut.T">T</span>]</span>)</span><span class="result">: <a href="#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.hasOut.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#in" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="in[T](in:Devices.this.In[T])(implicitevidence$2:izumi.reflect.Tag[T]):com.raquo.laminar.api.L.EventStream[T]"></a><a id="in[T](In[T])(Tag[T]):com.raquo.laminar.api.Laminar.EventStream[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#in[T](in:Devices.this.In[T])(implicitevidence$2:izumi.reflect.Tag[T]):com.raquo.laminar.api.L.EventStream[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">in</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="in">in: <a href="#In[T]=zio.Has[com.raquo.laminar.api.L.EventStream[T]]" class="extmbr" name="cycle.In">In</a>[<span class="extype" name="cycle.internal.Devices.in.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.in.T">T</span>]</span>)</span><span class="result">: <span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Devices.in.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Bijection#mapEventStream" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mapEventStream[A,B](implicitab:A=&gt;B):com.raquo.laminar.api.L.EventStream[A]=&gt;com.raquo.laminar.api.L.EventStream[B]"></a><a id="mapEventStream[A,B]((A)⇒B):(com.raquo.laminar.api.Laminar.EventStream[A])⇒com.raquo.laminar.api.Laminar.EventStream[B]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#mapEventStream[A,B](implicitab:A=&gt;B):com.raquo.laminar.api.L.EventStream[A]=&gt;com.raquo.laminar.api.L.EventStream[B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mapEventStream</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="ab">ab: (<span class="extype" name="cycle.internal.Bijection.mapEventStream.A">A</span>) ⇒ <span class="extype" name="cycle.internal.Bijection.mapEventStream.B">B</span></span>)</span><span class="result">: (<span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Bijection.mapEventStream.A">A</span>]) ⇒ <span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Bijection.mapEventStream.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bijection</dd></dl></div>
+    </li><li name="cycle.internal.Bijection#mapIn" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mapIn[A,B](implicitevidence$17:izumi.reflect.Tag[A],implicitevidence$18:izumi.reflect.Tag[B],implicitab:com.raquo.laminar.api.L.EventStream[A]=&gt;com.raquo.laminar.api.L.EventStream[B]):cycle.internal.Devices.In[A]=&gt;cycle.internal.Devices.In[B]"></a><a id="mapIn[A,B](Tag[A],Tag[B],(com.raquo.laminar.api.Laminar.EventStream[A])⇒com.raquo.laminar.api.Laminar.EventStream[B]):(cycle.internal.Devices.In[A])⇒cycle.internal.Devices.In[B]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#mapIn[A,B](implicitevidence$17:izumi.reflect.Tag[A],implicitevidence$18:izumi.reflect.Tag[B],implicitab:com.raquo.laminar.api.L.EventStream[A]=&gt;com.raquo.laminar.api.L.EventStream[B]):cycle.internal.Devices.In[A]=&gt;cycle.internal.Devices.In[B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mapIn</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.mapIn.A">A</span>]</span>, <span name="arg1">arg1: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Bijection.mapIn.B">B</span>]</span>, <span name="ab">ab: (<span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Bijection.mapIn.A">A</span>]) ⇒ <span class="extype" name="com.raquo.laminar.api.Airstream.EventStream">com.raquo.laminar.api.Laminar.EventStream</span>[<span class="extype" name="cycle.internal.Bijection.mapIn.B">B</span>]</span>)</span><span class="result">: (<span class="extype" name="cycle.internal.Devices.In">cycle.internal.Devices.In</span>[<span class="extype" name="cycle.internal.Bijection.mapIn.A">A</span>]) ⇒ <span class="extype" name="cycle.internal.Devices.In">cycle.internal.Devices.In</span>[<span class="extype" name="cycle.internal.Bijection.mapIn.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bijection</dd></dl></div>
+    </li><li name="cycle.internal.Devices#mem" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mem[T](mem:Devices.this.Mem[T])(implicitevidence$6:izumi.reflect.Tag[T]):com.raquo.laminar.api.L.Signal[T]"></a><a id="mem[T](Mem[T])(Tag[T]):com.raquo.laminar.api.Laminar.Signal[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#mem[T](mem:Devices.this.Mem[T])(implicitevidence$6:izumi.reflect.Tag[T]):com.raquo.laminar.api.L.Signal[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mem</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="mem">mem: <a href="#Mem[T]=zio.Has[com.raquo.laminar.api.L.Signal[T]]" class="extmbr" name="cycle.Mem">Mem</a>[<span class="extype" name="cycle.internal.Devices.mem.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.mem.T">T</span>]</span>)</span><span class="result">: <span class="extype" name="com.raquo.laminar.api.Airstream.Signal">com.raquo.laminar.api.Laminar.Signal</span>[<span class="extype" name="cycle.internal.Devices.mem.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.internal.Devices#out" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="out[T](out:Devices.this.Out[T])(implicitevidence$4:izumi.reflect.Tag[T]):com.raquo.laminar.api.L.WriteBus[T]"></a><a id="out[T](Out[T])(Tag[T]):com.raquo.laminar.api.Laminar.WriteBus[T]"></a>
+      <span class="permalink">
+      <a href="../cycle/index.html#out[T](out:Devices.this.Out[T])(implicitevidence$4:izumi.reflect.Tag[T]):com.raquo.laminar.api.L.WriteBus[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">out</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="out">out: <a href="#Out[T]=zio.Has[com.raquo.laminar.api.L.WriteBus[T]]" class="extmbr" name="cycle.Out">Out</a>[<span class="extype" name="cycle.internal.Devices.out.T">T</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="arg0">arg0: <span class="extype" name="izumi.reflect.Tag">Tag</span>[<span class="extype" name="cycle.internal.Devices.out.T">T</span>]</span>)</span><span class="result">: <span class="extype" name="com.raquo.laminar.api.Airstream.WriteBus">com.raquo.laminar.api.Laminar.WriteBus</span>[<span class="extype" name="cycle.internal.Devices.out.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Devices</dd></dl></div>
+    </li><li name="cycle.ComposeDriver" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ComposeDriver"></a><a id="ComposeDriver:ComposeDriver"></a>
+      <span class="permalink">
+      <a href="../cycle/ComposeDriver$.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="ComposeDriver$.html"><span class="name">ComposeDriver</span></a>
+      </span>
+      
+      
+    </li>
+              </ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="cycle.internal.Helper">
+              <h3>Inherited from <span class="extype" name="cycle.internal.Helper">Helper</span></h3>
+            </div><div class="parent" name="cycle.internal.Bijection">
+              <h3>Inherited from <span class="extype" name="cycle.internal.Bijection">Bijection</span></h3>
+            </div><div class="parent" name="cycle.internal.Devices">
+              <h3>Inherited from <span class="extype" name="cycle.internal.Devices">Devices</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+    </body>
+          </div>
+        </div>
+      </div>
+    </body>
+      </html>
